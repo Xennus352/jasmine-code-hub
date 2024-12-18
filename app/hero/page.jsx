@@ -1,6 +1,6 @@
 // import LoginFacebook from "@/components/LoginFaceBook";
 import LoginGithub from "@/components/LoginGithub";
-import LoginGoogle from "@/components/LoginGoogle";
+// import LoginGoogle from "@/components/LoginGoogle";
 import React from "react";
 
 const page = () => {
@@ -16,7 +16,7 @@ const page = () => {
         <div className="flex-wrap flex-col flex gap-2">
           <LoginGithub />
           {/* <LoginFacebook /> */}
-          <LoginGoogle />
+          {/* <LoginGoogle />  */}
         </div>
       </div>
     </>
