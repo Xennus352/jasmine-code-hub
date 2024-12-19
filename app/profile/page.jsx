@@ -12,7 +12,7 @@ const page = async () => {
   const userId = currentUser?.id;
   const saveBlog = await getSaveBlog(userId);
   return (
-    <div className=" h-screen">
+    <div className=" h-screen overflow-y-scroll">
       <div className="flex items-center  text-green-700">
         {/* headder  */}
         {currentUser?.role == "ADMIN" && (
